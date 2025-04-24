@@ -1,0 +1,75 @@
+   body {
+
+        .carta {
+            max-width: 800px;
+            background: #fff9e6;
+            padding: 40px;
+            border: 1px solid #8b4513;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+            position: relative;
+            margin: 20px;
+        }
+
+        .mancha {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: rgba(139, 69, 19, 0.1);
+            border-radius: 50%;
+            opacity: 0.3;
+        }
+
+        .mancha1 {
+            top: 20px;
+            right: 30px;
+        }
+
+        .mancha2 {
+            bottom: 40px;
+            left: 20px;
+        }
+
+        .data {
+            text-align: right;
+            margin-bottom: 30px;
+            font-style: italic;
+        }
+
+        .assinatura {
+            text-align: right;
+            margin-top: 40px;
+            font-style: italic;
+        }
+
+        h1 {
+            text-align: center;
+            color: #8b4513;
+            font-size: 2em;
+            margin-bottom: 30px;
+            font-family: 'Playfair Display', serif;
+        }
+
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+
+        .selo {
+            width: 100px;
+            height: 100px;
+            background: #8b4513;
+            opacity: 0.2;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            border-radius: 50%;
+        }
+
+        @media (max-width: 600px) {
+            .carta {
+                padding: 20px;
+                margin: 10px;
+            }
+        }
+</head>
+<body>
